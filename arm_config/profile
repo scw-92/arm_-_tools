@@ -38,6 +38,16 @@ export PATH=$TSLIB_ROOT/bin:$PATH:/use/local/qt5/bin
 export QTDIR=/usr/local/qt5
 export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/local/qt5/plugins
 export QT_QPA_PLATFORM=linuxfb:fb=/dev/fb0
+#换成xcb驱动显示------代码如下：-------------------------
+#export QT_QPA_PLATFORM=xcb:fb=/dev/fb0
+#export QWS_DISPLAY=xcb:mmWidth91:mmHeight53:0
+#export DISPLAY=:0
+
+#Xorg & 此句在启动脚本文件中编写
+#startfluxbox & 此句在启动脚本文件中编写
+#qt_text 此句在启动脚本中编写
+
+#
 
 export QT_QPA_FONTDIR=/usr/local/qt5/lib/fonts
 export QT_QPA_GENERIC_PLUGINS=tslib:$TSLIB_TSDEVICE                             
