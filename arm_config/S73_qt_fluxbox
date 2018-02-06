@@ -1,0 +1,7 @@
+export QT_QPA_PLATFORM=xcb:fb=/dev/fb0
+export QWS_DISPLAY=xcb:mmWidth91:mmHeight53:0
+export DISPLAY=:0
+
+Xorg & 
+startfluxbox & 
+qt_text &
