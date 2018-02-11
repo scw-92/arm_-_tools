@@ -46,7 +46,8 @@ export QT_QPA_PLATFORM=linuxfb:fb=/dev/fb0
 #Xorg & 此句在启动脚本文件中编写
 #startfluxbox & 此句在启动脚本文件中编写
 #qt_text 此句在启动脚本中编写
-
+#export QML2_IMPORT_PATH=$QTDIR/qml
+#export QT_QPA_EGLFS_FB=/dev/fb0
 #
 
 export QT_QPA_FONTDIR=/usr/local/qt5/lib/fonts
@@ -58,3 +59,5 @@ export QWS_KEYBOARD=USB:/dev/input/event0
 export QWS_MOUSE_PROTO=Tslib:/dev/input/event0
 export QWS_DISPLAY=LinuxFb:mmWidth91:mmHeight53:0
 export QWS_SIZE=800x480
+
+
